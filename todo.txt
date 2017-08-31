@@ -1,0 +1,14 @@
+-encrypt solvedWords JS array
+-make page work in mobile
+-better dictionary
+
+-compute game score (python)
+-minimum 3 letter words
+-POST js data to server when game terminates
+-launch modal after game terminates
+
+-fade timer from #4cae4c to #d43f3a
+-determining winners, could be tie
+-gather someone's name when they break the high scores
+-gray out the board and buttons once the game finishes (give everything that disabled look)
+-make the call to solving the board asynchronous with rendering the page

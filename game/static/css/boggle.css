@@ -1,0 +1,77 @@
+@font-face {
+	font-family: "NewsGothic";
+	src: url("../fonts/NewsGothicRegular.ttf");
+}
+
+.tile {
+	padding: .3em;
+	font-size: 2.8em;
+	border: 1px solid gray;
+	text-align: center;
+	margin: .12em;
+	background-color: #ffe59e;
+	color: #601407;
+	font-family: "NewsGothic";
+}
+
+#tileArea .col-sm-3 {
+	padding: 0px;
+}
+
+#wordInputArea {
+	margin-top: 3em;
+}
+
+#wordInputArea #formArea {
+	/*margin-left: 2em;*/
+	margin-top: 2%;
+}
+
+#wordBank {
+	border-collapse: separate;
+    border-spacing: 1em;
+    *border-collapse: expression('separate', cellSpacing = '1em');
+}
+
+#wordBank td {	
+	background-color: #dfe3ee;
+	color: #3b5998;
+	padding: .30em;
+	border: 1px solid #f7f7f7;
+	border-radius: .2em;
+}
+
+#timeArea {
+	font-size: 2em;
+	margin-bottom: 1em;
+	text-align: center;
+	background-color: #f7f7f7;
+	border: 1px solid #3b5998;
+	border-radius: .2em;
+}
+
+#timeRemaining {
+	color: #4cae4c;
+}
+
+.letter {
+	visibility: hidden;
+}
+
+#scoreArea {
+	text-align: right;
+	font-size: 2em;
+}
+
+#score {
+	color: #4cae4c;
+
+	padding: 0.15em .25em;
+	text-align: center;
+	background-color: #f7f7f7;
+	border: 1px solid #3b5998;
+	border-radius: .2em;
+	margin-right: -15%;
+}
+
+
